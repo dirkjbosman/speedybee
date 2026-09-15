@@ -1,6 +1,10 @@
 # High-Speed Bee Detection & Signature Analysis
 Real-time computer vision simulation built with C++, SDL2, and OpenCV.
 
+**high-speed-insect-detection** is:
+* An advanced high-performance simulation application bridging the gap between high-speed object detection logic (bees vs. decoys) and real-time retro telemetry visualization.
+* Currently maintained by yours truly **djb** ([@dirkjbosman](https://x.com/dirkjbosman)).
+* Released under the **MIT License**. Feel free to use, fork, and adapt for production-grade telemetry or computer vision pipelines.
 
 
 ### Demo Preview
