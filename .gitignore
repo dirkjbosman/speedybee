@@ -1,3 +1,6 @@
+Here is your updated `.gitignore` file with `.DS_Store` added for macOS, along with other standard additions for IDEs (like VS Code / Xcode), OS temporary files, and local build artifacts:
+
+```gitignore
 # Prerequisites
 *.d
 
@@ -22,7 +25,6 @@
 *.dylib
 *.dll
 *.so.*
-
 
 # Fortran module files
 *.mod
@@ -67,3 +69,34 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# ==========================
+# ADDED IMPORTANT EXCLUSIONS
+# ==========================
+
+# macOS Finder metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Windows Explorer metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE & Editor specific configurations (VS Code, Xcode, etc.)
+.vscode/
+.idea/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.xcworkspace/
+.DS_Store
+xcuserdata/
+
+# Local Environment & User files
+.env
+.env.local
+*.user
+
+```
