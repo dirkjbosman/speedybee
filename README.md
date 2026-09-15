@@ -1,7 +1,7 @@
-# High-Speed Bee Detection & Signature Analysis
+# High-Speed Bee Detection & Signature Analysis with *Speedybee*
 Real-time computer vision simulation built with C++, SDL2, and OpenCV.
 
-**high-speed-insect-detection** is:
+**High-speed Bee Detection** is:
 * An advanced high-performance simulation application bridging the gap between high-speed object detection logic (bees vs. decoys) and real-time retro telemetry visualization.
 * Currently maintained by yours truly **djb** ([@dirkjbosman](https://x.com/dirkjbosman)).
 * Released under the **MIT License**. Feel free to use, fork, and adapt for production-grade telemetry or computer vision pipelines.
@@ -53,8 +53,8 @@ Before building the project, verify that your development environment meets the 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/YOUR_USERNAME/speed_detection.git
-    cd speed_detection
+    git clone https://github.com/YOUR_USERNAME/speedybee.git
+    cd speedybee
     ```
 
 2. Create a build directory and compile:
